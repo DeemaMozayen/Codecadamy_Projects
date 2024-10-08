@@ -7,7 +7,7 @@ random_number = random.randint(1, 12)
 name = "Deema"
 
 # input yes or no question:
-question = "Am I an utter legend? \n"
+question = "Is the sky blue? \n"
 answer = ""
 
 if len(question) == 0:
@@ -38,7 +38,7 @@ elif random_number == 9:
 elif random_number == 10:
   answer = "Aww hell no"
 elif random_number == 11:
-  answer = "lol wtf"
+  answer = "lol"
 elif random_number == 12:
   answer = "Get outta here"
 else:
